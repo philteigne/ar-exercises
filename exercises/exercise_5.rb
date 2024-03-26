@@ -11,8 +11,5 @@ puts "----------"
 @sum = Store.sum(:annual_revenue)
 puts @sum
 
-@rich_stores = Store.where("annual_revenue < ?", 1000000)
-
-@rich_stores.each do |store|
-  puts store.name
-end
+@rich_stores = Store.where("annual_revenue < ?", 1000000).count
+puts @rich_stores
