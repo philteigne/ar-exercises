@@ -11,4 +11,4 @@ puts "----------"
 # Your code goes here ...
 @store1.employees.create(first_name: "Phil", last_name: "Teigne", hourly_rate: 23)
 @store2.employees.create(first_name: "Harold", last_name: "Mendes", hourly_rate: 12)
-@store3.employees.create(first_name: "Kenneth", last_name: "Copeland", hourly_rate: 400)
+@store2.employees.create(first_name: "Kenneth", last_name: "Copeland", hourly_rate: 400)
